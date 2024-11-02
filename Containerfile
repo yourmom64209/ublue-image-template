@@ -41,7 +41,7 @@ ARG SOURCE_TAG="latest"
 
 ### 2. SOURCE IMAGE
 ## this is a standard Containerfile FROM using the build ARGs above to select the right upstream image
-FROM ghcr.io/ublue-os/${base}${main}:${latest}
+FROM ghcr.io/ublue-os/${base}${-main}:${latest}
 
 
 ### 3. MODIFICATIONS
