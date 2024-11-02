@@ -14,7 +14,10 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
-
+rpm-ostree install plasma-mobile
+rpm-ostree install konsole
+rpm-ostree install @kde-desktop-environment
+rpm-ostree install plasma-discover
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
